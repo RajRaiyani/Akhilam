@@ -1,6 +1,8 @@
 let a = document.getElementsByClassName("navbar")[0];
 let burger = document.getElementsByClassName("burger-bar");
 
+
+
 window.addEventListener("scroll", () => {
     let sr = window.scrollY;
 

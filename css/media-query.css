@@ -1,0 +1,106 @@
+@media screen and (min-width: 750px) {
+  :root {
+    font-size: 16px;
+  }
+
+  .burger-btn {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+  }
+
+  /* section 4 */
+
+  .sec-4 > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
+
+  .sec-sample-2 a{
+    width: 30%;
+  }
+
+
+
+
+
+
+
+
+  /* section sample  */
+
+  .sec-sample > div {
+    flex-direction: row;
+  }
+
+  .sample-text-box {
+    width: 30vw;
+  }
+
+  .anim-3d-1 {
+    width: 55vw;
+    height: 45vw;
+    margin: -10rem -5rem -5rem -8rem;
+  }
+  .anim-3d-2 {
+    width: 40vw;
+    height: 20vw;
+    margin: 0rem -10rem -15rem -5rem;
+  }
+
+  .anim-cover-1 {
+    width: 35vw;
+    height: 20vw;
+  }
+
+  .swiper {
+    width: 50vw;
+    height: 30vw;
+  }
+
+
+
+
+
+  /* footer css */
+
+  .footer {
+    flex-direction: row;
+    height: fit-content;
+  }
+
+  .footer > div {
+    width: 25vw;
+  }
+
+  .footer-logo {
+    width: 9rem;
+  }
+  .b-name-11 {
+    font-size: 1.5rem;
+  }
+
+  .m-icon {
+    font-size: 2rem;
+  }
+
+  .title-1::before {
+    width: 40%;
+  }
+
+  .title-1::after {
+    width: 40%;
+  }
+
+  .pg-item{
+      width: 30vw;
+  }
+
+
+
+}

@@ -1,0 +1,17 @@
+.who-vr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to left,var(--blue),transparent);
+}
+
+.vr-img{
+    width: 40vw;
+}
+.vr-info{
+    width: 50vw;
+}
+.vr-info>P{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}

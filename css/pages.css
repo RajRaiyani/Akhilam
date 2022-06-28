@@ -23,13 +23,13 @@
 }
 
 .pg-item:hover .pg-item-img{
-    box-shadow: 0 0 20px gray;
+    box-shadow: 0 0 10px rgb(36, 35, 35);
 }
 
 .pg-item-img{
     width: 100%;
     height: 250px;
     border-radius: 1rem;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 

@@ -12,10 +12,12 @@ window.addEventListener("scroll", () => {
     burger[2].classList.toggle("bg-black",sr>10);
 
     if (sr >= 10) {
-        document.getElementsByClassName("logo")[0].src = "../images/logo.png";
+        document.getElementsByClassName("logo")[1].style.display="block";
+        document.getElementsByClassName("logo")[0].style.display="none";
         burger.backgroundColor="black";
     } else {
-        document.getElementsByClassName("logo")[0].src = "../images/logo-2.png";
+        document.getElementsByClassName("logo")[0].style.display="block";
+        document.getElementsByClassName("logo")[1].style.display="none";
         burger.backgroundColor="white";
     }
 });

@@ -7,6 +7,10 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 body {
     overflow-x: hidden;
@@ -153,6 +157,7 @@ body {
 
 .block {
     width: 100%;
+    display: block;
 }
 
 .title-1::before {

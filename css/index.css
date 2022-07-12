@@ -7,7 +7,7 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background-image: url("../images/banner.png");
+    background-image: url("../images/banner.webp");
 }
 
 .banner-slide{
@@ -74,7 +74,7 @@
 .sec-sample-2{
     margin:5rem 0 0 0;
     padding: 1rem 0;
-    background-image:url("../images/img-113.jpg");
+    background-image:url("../images/img-113.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -89,15 +89,24 @@
 .sec-sample-2 a{
     width: 50%;
     padding: 0.7rem;
-    transition:0.2s;
 }
-.sec-sample-2 a:hover{
+.itr-sam-img{
+    transition: 0.3s;
+    box-shadow: 0 0 10px black;
+}
+.itr-sam-img:hover{
     transform: scale(1.1) !important;
 }
 .sec-sample-2 img{
     width: 100%;
     height: 100%;
     border-radius: 1rem;
+}
+
+.dddhome{
+    width: 100%;
+    border-radius: 1rem;
+    filter: drop-shadow(0 0 10px gray);
 }
 
 
@@ -121,18 +130,7 @@
     padding: 1rem;
 }
 
-.anim-3d-1{
-    width: 90vw;
-    height: 90vw;
-    margin: -8rem 0 0 0;
-}
 
-.anim-cover-1{
-    width: 80vw;
-    height: 50vw;
-    overflow: hidden;
-    margin: 0 auto;
-}
 
 
 .swiper {

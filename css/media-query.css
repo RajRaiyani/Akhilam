@@ -22,7 +22,8 @@
 
 
   .sec-sample-2 a{
-    width: 30%;
+    width: 30vw;
+    height: 17vw ;
   }
 
 
@@ -42,21 +43,9 @@
     width: 30vw;
   }
 
-  .anim-3d-1 {
-    width: 55vw;
-    height: 45vw;
-    margin: -10rem -5rem -5rem -8rem;
-  }
-  .anim-3d-2 {
-    width: 40vw;
-    height: 20vw;
-    margin: 0rem -10rem -15rem -5rem;
-  }
+  
 
-  .anim-cover-1 {
-    width: 35vw;
-    height: 20vw;
-  }
+
 
   .swiper {
     width: 50vw;

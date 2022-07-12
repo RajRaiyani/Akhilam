@@ -87,7 +87,7 @@
 /* navigation bar for mobile */
 
 .navbar-mobile {
-    background-image: url(../images/nav-mob.png);
+    background-image: url(../images/nav-mob.webp);
     background-size: cover;
     color: white;
     position: fixed;

@@ -1,7 +1,7 @@
 .page-banner{
     width: 100vw;
     height: 45vh;
-    background-image: url("../images/page-banner.png");
+    background-image: url("../images/page-banner.webp");
     background-size: cover;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -22,7 +22,11 @@
     overflow: hidden;
 }
 
+.pg-item-img{
+    transition: 1s !important;
+}
 .pg-item:hover .pg-item-img{
+    transform: scale(1.3);
     box-shadow: 0 0 10px rgb(36, 35, 35);
 }
 

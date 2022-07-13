@@ -12,25 +12,26 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/media-query.css">
     <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/contact-query.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    
+
     <section class="navigation_bar">
 
         <div class="navbar">
 
-            <a href="../index.html" class="home_btn">
-                <img src="../images/logo-2.png" alt="logo" class="logo">
+            <a href="index.html" class="home_btn" data-aos="fade-right" data-aos-offset="0">
+                <img src="../images/logo-2.webp" alt="logo" class="logo">
+                <img src="../images/logo.webp" alt="logo" style="display:none;" class="logo">
                 <h3 class="brand_name"> projects</h3>
             </a>
 
 
-            <div class="links">
+            <div class="links" data-aos="fade-left" data-aos-offset="0">
                 <a href="../index.html" class="link">Home</a>
                 <a href="about.html" class="link">About</a>
                 <a href="projects.html" class="link">Projects</a>
-                <a href="download.html" class="link">Download</a>
                 <a href="contact.html" class="link activ">Contact</a>
             </div>
             <div class="burger-btn" onclick="nav_toggle_fun()">
@@ -45,8 +46,7 @@
                 <a href="../index.html" class="link" onclick="go_back()">Home</a>
                 <a href="about.html" class="link" onclick="go_back()">About</a>
                 <a href="projects.html" class="link" onclick="go_back()">Projects</a>
-                <a href="download.html" class="link" onclick="go_back()">Download</a>
-                <a href="contact.html" class="link activ" onclick="go_back()">Contact</a>
+                <a href="contact.html" class="link" onclick="go_back()">Contact</a>
             </div>
         </div>
     </section>
@@ -57,7 +57,7 @@
 
 
     <section class="form">
-        <h2 class="block">YOU ARE JUST A STEP AWAY TO EXPERIENCE THE BEST SOLUTION FOR YOUR DREAM WORK!</h2>
+        <h3 class="block" style="color: gray;">YOU ARE JUST A STEP AWAY TO EXPERIENCE THE BEST SOLUTION FOR YOUR DREAM WORK!</h3>
         <br/>
         <form action="">
             <div class="form-box">
@@ -75,7 +75,10 @@
     </section>
 
 
-
+    <div style="margin: 2rem 0; text-align: center;">
+        <img src="../images/smart-card/smart-card-img.png" id="card-img" onclick="window.open('../images/smart-card/smart-card.pdf')" alt="">
+        <h3 style="color: orange;">download smart-cart by just clicking on it</h3>
+    </div>
 
 
 
@@ -83,24 +86,24 @@
     <div class="footer">
 
         <div class="footer-left center" data-aos="fade-up" data-aos-offset="0">
-            <a class="flex center-v b-box-11">
-                <img src="../images/logo.png" class="footer-logo" alt="" />
+            <a class="flex center-v b-box-11" href="../index.html">
+                <img src="../images/logo.webp" class="footer-logo" alt="" />
                 <h2 class="b-name-11 text-left">
                     Dharmesh <br />Solanki <br />Projects
                 </h2>
             </a>
             <div class="mi-box">
-                <a href="" class="m-icon fa-brands fa-instagram"></a>
-                <a href="" class="m-icon fa-brands fa-facebook"></a>
-                <a href="" class="m-icon fa-brands fa-twitter"></a>
-                <a href="" class="m-icon fa-solid fa-location-dot"></a>
+                <a href="https://instagram.com/dharmesh_solanki_projects?igshid=YmMyMTA2M2Y=" class="m-icon fa-brands fa-instagram"></a>
+                <a href="mailto:Akhilamdesign@gmail.com" class="m-icon fa-solid fa-envelope"></a>
+                <a href="https://www.google.com/maps/place/22°17'25.2%22N+70°47'55.3%22E/@22.2903439,70.7942153,17z/data=!4m14!1m7!3m6!1s0x3bcb99a2716b0d81:0xb0038aa72de8a8ec!2sVidya+Nagar,+Adikmet,+Hyderabad,+Telangana!3b1!8m2!3d17.4065284!4d78.5139136!3m5!1s0x0:0x65d391488804dc3!7e2!8m2!3d22.2903392!4d70.7986996?hl=en" class="m-icon fa-solid fa-location-dot"></a>
             </div>
         </div>
 
 
         <div class="footer-mid flex-b" data-aos="zoom-in" data-aos-offset="0">
             <h1 class="title-footer-11 color-logo">visit our office</h1>
-            <a href="" class="m-icon fa-solid fa-location-dot mt-1"></a>
+            <a href="https://www.google.com/maps/place/22°17'25.2%22N+70°47'55.3%22E/@22.2903439,70.7942153,17z/data=!4m14!1m7!3m6!1s0x3bcb99a2716b0d81:0xb0038aa72de8a8ec!2sVidya+Nagar,+Adikmet,+Hyderabad,+Telangana!3b1!8m2!3d17.4065284!4d78.5139136!3m5!1s0x0:0x65d391488804dc3!7e2!8m2!3d22.2903392!4d70.7986996?hl=en"
+                class="m-icon fa-solid fa-location-dot mt-1"></a>
             <p class="address text-center color-logo">
                 Office No 509 Dwarika Empire , Opp. Rashtriya Shala , Nr. Malaviya Chowk , Yagnik Road , Rajkot.
             </p>
@@ -109,9 +112,10 @@
         <div class="footer-right flex-b" data-aos="fade-up" data-aos-offset="0">
             <h1 class="title-footer-11 text-center color-logo">contact us</h1>
             <div class="flex-column text-center color-logo">
-                <p> <span class="fa-solid fa-phone mt-2"></span>+91 8000771644 </p>
-                <p> <span class="fa-solid fa-phone mt-1"></span>+91 6354545353 </p>
-                <p> <span class="fa-solid fa-envelope mt-1"></span>akhilamdesign@gmail.com</p>
+                <a class="block" href="tel:800077164"> <span class="fa-solid fa-phone mt-2"></span>&nbsp;+91
+                    8000771644</a>
+                <a class="block" href="mailto:akhilamdesign@gmail.com"> <span
+                        class="fa-solid fa-envelope mt-1"></span>&nbsp;&nbsp;akhilamdesign@gmail.com </a>
             </div>
         </div>
 

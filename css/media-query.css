@@ -91,5 +91,18 @@
   }
 
   
+  .who-vr{
+    flex-direction:row;
+  }
+  .vr-img{
+    width: 40vw;
+  }
+  .vr-info{
+    width: 50vw;
+  }
+
+  .swiper-button-next,.swiper-button-prev{
+    display: flex;
+  }
 
 }

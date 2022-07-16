@@ -134,8 +134,8 @@
 
 
 .swiper {
-    width: 80vw;
-    height: 40vw;
+    width: 90vw;
+    height: 60vw;
 }
 
 .swiper-slide {
@@ -147,11 +147,12 @@
 }
 
 .swiper-button-next,.swiper-button-prev{
-    color:orange;
+    display: none;
+    color:white;
     font-weight: 700;
     text-shadow: 0 0 20px white;
     padding: 2rem 1rem;
-    background-color: aliceblue;
+    background-color: rgb(173, 173, 173);
     border-radius: 0.7rem;
     transition: 0.1s;
 }
